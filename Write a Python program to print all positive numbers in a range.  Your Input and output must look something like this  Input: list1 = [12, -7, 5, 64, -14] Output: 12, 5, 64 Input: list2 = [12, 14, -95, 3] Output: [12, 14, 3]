@@ -1,0 +1,12 @@
+N=int(input("Number of lists to be checked"))
+for j in range(N):
+    nos=list()
+    n= int(input("No of elements in the list"))
+    for i in range(n):
+        x=int(input("Enter the element into the list"))
+        nos.append(x)
+    newlist=list()
+    for number in nos:
+        if(number>0):
+            newlist.append(number)
+    print(newlist)
