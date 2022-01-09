@@ -1,0 +1,6 @@
+num1={3,65,44,11,88}
+num2={10,30,3,80,44}
+print("Union of the two sets is",(num1.union(num2)))
+print("Intersection of the two sets is",(num1.intersection(num2)))
+print("Difference of the two sets is",(num1.difference(num2)))
+print("Symmetric difference of the two sets is",(num1.symmetric_difference(num2)))
